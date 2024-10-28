@@ -51,7 +51,6 @@ while True:
     # 결과 프레임 표시
     cv2.imshow('Real-time Object Detection', frame)
 
-    # 'q' 키를 누르면 종료
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 

@@ -11,7 +11,6 @@ model.to(device)  # 모델을 MPS 또는 CPU로 이동
 print(f"모델이 실행 중인 장치: {device}")
 
 # 사용자로부터 추론할 클래스 입력 받기
-# 사용자로부터 추론할 클래스 입력 받기
 input_classes = input("추론할 클래스 이름을 쉼표로 구분하여 입력하세요 (예: person,fork,cup): ")
 
 # 입력받은 문자열을 쉼표로 나눠서 리스트로 변환

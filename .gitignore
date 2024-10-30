@@ -6,3 +6,4 @@ movies
 yolov8s-world.pt
 runs
 datasets
+.librealsense
